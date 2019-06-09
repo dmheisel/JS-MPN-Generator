@@ -12,3 +12,4 @@ const mpnFinder = (input) => {
         return "ERROR - COMBINATION PROVIDED IS NOT ON TABLE";
     } else return mpn;
 };
+
