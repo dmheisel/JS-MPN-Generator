@@ -1,0 +1,26 @@
+body {
+  background-color: cornsilk;
+  color: bisque;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+  line-height: 25px;
+}
+
+h1 {
+  font-size: 3em;
+  overflow: break;
+}
+
+.overlay {
+  width: 75%;
+  min-width: 20%;
+  margin: 3% auto;
+  display: block;
+  padding: 2%;
+  height: 60vh;
+  background-color: cornflowerblue;
+  border-radius: 30px;
+  text-align: center;
+}

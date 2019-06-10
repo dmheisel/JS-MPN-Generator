@@ -1,13 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8">
     <title>MPN Generator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
-    <! form action="/script.js" method="POST" >
-      <label for="Combination of Positives">Combination Of Positives</label>
-      <input type="text" name="Combination of Positives">
-
-    </form>
+    <section class="overlay">
+    <h1>MPN Generator for Method 1680</h1>
+    <p>Enter Combination of positives</p>
+      <form action="/script.js" method="GET" >
+        <div>
+          <label for="Result One">Result One</label>
+          <input type="number" id="Result One" name="Result One" step="1" min="0" max="5">
+          <label for="Result Two">Result Two</label>
+          <input type="number" id="Result Two" name="Result Two" step="1" min="0" max="5">
+          <label for="Result Three">Result Three</label>
+          <input type="number" id="Result Three" name="Result Three" step="1" min="0" max="5">
+        </div>
+        <div>
+          <input type="submit" value="submit">
+        </div>
+      </form>
+    </section>
   </body>
 </html>
