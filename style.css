@@ -1,6 +1,6 @@
 body {
-  background-color: cornsilk;
-  color: bisque;
+  background-color: whitesmoke;
+  color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -20,7 +20,7 @@ h1 {
   display: block;
   padding: 2%;
   height: 60vh;
-  background-color: cornflowerblue;
+  background-color: midnightblue;
   border-radius: 30px;
   text-align: center;
 }
